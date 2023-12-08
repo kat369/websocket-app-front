@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./App.css";
 import Chat from "./Chat";
 
-const socket = io.connect("http://localhost:5000/");
+const socket = io.connect("https://websocket-app-back-je1tv34v9-kat369.vercel.app/");
 
 function App() {
   const [userName, setUserName] = useState("");
